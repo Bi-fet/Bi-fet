@@ -32,7 +32,7 @@
                     class="robo">
             </div>
         </div>
-        <p>© 2025 BI-FET. Todos os direitos reservados.</p>
+        <p class="a-p">© 2025 BI-FET. Todos os direitos reservados.</p>
     </footer>
 </template>
 
@@ -73,7 +73,7 @@ li {
     margin: 0 auto;
 }
 
-p {
+.a-p{
     color: var(--btn-text);
     text-align: center;
     margin-top: 24px;
