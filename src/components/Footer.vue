@@ -26,7 +26,7 @@
             <div class="footer-item mascote">
                 <div class="footer-text">
                     <h4 class="footer-title">Conecte-se Conosco</h4>
-                    <a href="https://www.linkedin.com/in/bi-fet-startup-6a1452370/"><img src="../assets/images/linkedin-icon.svg" alt="Ícone do Linkedin"></a>
+                    <a href="https://www.linkedin.com/in/bi-fet-startup-6a1452370/" target="_blank"><img src="../assets/images/linkedin-icon.svg" alt="Ícone do Linkedin"></a>
                 </div>
                 <img src="../assets/images/t-byte.svg" alt="Mascote da Bi-fet, um robozinho chamado T-Byte."
                     class="robo">
