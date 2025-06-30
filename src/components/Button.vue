@@ -49,4 +49,12 @@ const handleClick = () => {
 .btn-primary:active {
     transform: scale(1.05);
 }
+
+@media (max-width: 480px) {
+  .btn-primary {
+    padding: 14px 28px;
+    min-width: 260px;
+    font-size: calc(var(--font-size-base) * 1.1);
+  }
+}
 </style>

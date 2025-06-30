@@ -87,4 +87,25 @@ form {
 .submit {
     margin-bottom: 20px;
 }
+
+@media (max-width: 480px) {
+    form {
+        padding: 20px;
+        margin: 40px 20px;
+    }
+
+    .contact {
+        margin-bottom: -40px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 0.9rem;
+        padding: 10px 12px;
+    }
+
+    .submit {
+        margin-bottom: 15px;
+    }
+}
 </style>

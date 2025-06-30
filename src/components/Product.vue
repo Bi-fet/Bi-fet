@@ -1,5 +1,5 @@
 <template>
-    <section class="product-container">
+    <section class="product-container" id="product">
         <h1 class="title">Nosso Produto</h1>
         <section class="product-principal">
             <div class="product-right">
@@ -27,13 +27,13 @@
                 <div class="cards">
                     <div class="card-item">
                         <h3 class="card-title">Inteligência 24/7</h3>
-                        <p class="text">Chatbots que <strong>aprendem com seus dados</strong> e respondem como um
+                        <p class="texts">Chatbots que <strong>aprendem com seus dados</strong> e respondem como um
                             especialista humano - só que <strong>24/7</strong>.</p>
                         <img src="../assets/images/icon1.svg" alt="Um cérebro azul com engrenagens cinza atrás.">
                     </div>
                     <div class="card-item">
                         <h3 class="card-title">Insights Acionáveis</h3>
-                        <p class="text">Não entregamos apenas números: explicamos o “porquê” e <strong>sugerimos o que
+                        <p class="texts">Não entregamos apenas números: explicamos o “porquê” e <strong>sugerimos o que
                                 fazer</strong>.
                         </p>
                         <img src="../assets/images/icon2.svg"
@@ -41,7 +41,8 @@
                     </div>
                     <div class="card-item">
                         <h3 class="card-title">Decisões Rápidas</h3>
-                        <p class="text">De dados brutos a <strong>decisões estratégicas em minutos</strong>, não semanas
+                        <p class="texts">De dados brutos a <strong>decisões estratégicas em minutos</strong>, não
+                            semanas
                         </p>
                         <img src="../assets/images/icon3.svg"
                             alt="Funcionário de escritório subindo escadas ao lado de um alvo com uma flecha no meio.">
@@ -100,13 +101,101 @@
     text-align: center;
 }
 
-.card-item p {
+.card-item .texts {
     flex-wrap: wrap;
+    font-size: var(--font-size-base);
+    font-family: var(--font-family-sans-serif);
+    text-align: justify;
     color: var(--btn-text);
+    line-height: 1.6;
 }
 
 .card-item img {
     width: 130px;
     height: 116px;
+}
+
+@media (max-width: 1024px) {
+    .product-container {
+        margin: 80px 60px;
+    }
+
+    .product-principal {
+        gap: 100px;
+    }
+
+    .product-principal img {
+        width: 320px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .product-container {
+        margin: 60px 40px;
+    }
+
+    .product-principal {
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 80px;
+    }
+
+    .product-principal img {
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .product-right {
+        width: 100%;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .card-item {
+        padding: 20px;
+    }
+
+    .card-item img {
+        width: 100px;
+        height: 90px;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-container {
+        margin: 40px 20px;
+    }
+
+    .product-principal {
+        gap: 30px;
+        margin-bottom: 60px;
+    }
+
+    .card-item {
+        padding: 15px;
+    }
+
+    .card-title {
+        font-size: 1.125rem;
+    }
+
+    .card-item .texts {
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+
+    .card-item img {
+        width: 80px;
+        height: 72px;
+    }
 }
 </style>
