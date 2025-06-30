@@ -30,7 +30,7 @@
 
         <p class="validity termo_p">
           BI-FET, pessoa jurídica de direito privado descreve, através deste documento, as regras de uso do site
-          <a href="https://www.figma.com/design/96TtHNybKjWLSFqPHeeUeA/BI-FET?node-id=0-1&p=f&t=XyG4lVgsDhdAzXix-0" target="_blank">https://www.figma.com/design</a>
+          <a href="https://bi-fet.github.io/bifet/#/" target="_blank">https://bi-fet.github.io/bifet/#/</a>
           e qualquer outro site ou aplicativo operado pelo proprietário.
         </p>
         <p class="termo_p">Ao navegar neste website, consideramos que você está de acordo com os Termos de Uso abaixo.</p>
@@ -195,23 +195,23 @@ onMounted(() => {
   padding: 0 1rem;
 }
 
-.sidebar {
-  width: 220px;
-  border-right: 1px solid #eee;
-  padding-right: 1.5rem;
-  position: sticky;
-  top: 1rem;
-  align-self: flex-start;
-  max-height: calc(100vh - 2rem);
-  overflow-y: auto;
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 0.5rem;
 }
 
 .sidebar a {
-  color: var(--link-color);
+  color: var(--text-color);
   font-size: 0.9375rem;
   display: block;
   padding-left: 0.5rem;
   border-left: 3px solid transparent;
+  text-decoration: none;
   transition: color 0.3s, border-left-color 0.3s;
 }
 
@@ -221,7 +221,7 @@ onMounted(() => {
 
 .sidebar a.active {
   color: var(--btn-hover);
-  font-weight: var(--font-weight-medium);
+  font-weight: bold;
   border-left-color: var(--btn-hover);
 }
 
@@ -243,7 +243,24 @@ onMounted(() => {
   color: var(--primary-color);
   font-weight: var(--font-weight-bold);
 }
+.terms-content ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
 
+.terms-content ol {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.terms-content li {
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+}
 .validity {
   font-size: 0.875rem;
   color: var(--text-color);
@@ -269,18 +286,40 @@ a:hover {
 /* Responsivo */
 @media (max-width: 768px) {
   .main-content {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .sidebar {
     width: 100%;
-    padding-bottom: 1.25rem;
+    max-height: initial;
     border-right: none;
     border-bottom: 1px solid #eee;
+    padding: 1rem;
+    position: relative;
+    overflow-y: auto;
+  }
+
+  .sidebar ul {
+    display: block;
+    padding-left: 0;
+  }
+
+  .sidebar li {
+    margin-bottom: 0.75rem;
+    list-style: none;
+  }
+
+  .sidebar a {
+    display: block;
+    padding-left: 0.5rem;
+    font-size: 0.95rem;
+    border-left: 3px solid transparent;
   }
 
   .terms-content {
-    padding-left: 0;
+    width: 100%;
+    padding: 1rem;
   }
 }
 </style>

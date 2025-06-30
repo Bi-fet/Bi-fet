@@ -102,42 +102,89 @@ const sections = [
   {
     id: 'compartilhamento',
     label: 'Compartilhamento com Terceiros',
-    content: `<p class="termo_p">Nós poderemos compartilhar seus Dados Pessoais com: parceiros técnicos e fornecedores (...) venda ou incorporação da startup.</p>`
+    content: `  <p class="termo_p">Nós poderemos compartilhar seus Dados Pessoais com:</p>
+    <ul>
+      <li>Parceiros técnicos e fornecedores envolvidos no desenvolvimento, hospedagem, testes e manutenção da Bi-FET;</li>
+      <li>Empresas de publicidade digital ou analítica para personalização e medição de desempenho de campanhas;</li>
+      <li>Terceiros em caso de reestruturação societária, venda ou incorporação da startup.</li>
+    </ul>`
   },
   {
     id: 'transferencias',
     label: 'Transferências Internacionais',
-    content: `<p class="termo_p">Dados Pessoais e informações de outras naturezas coletadas por nós podem ser transferidos ou acessados por entidades pertencentes ao grupo corporativo das empresas parceiras em todo o mundo (...)</p>`
+    content: `<p class="termo_p">Dados Pessoais e informações de outras naturezas coletadas por nós podem ser transferidos ou acessados por entidades pertencentes ao grupo corporativo das empresas parceiras em todo o mundo de acordo com esta Política de Privacidade.
+              </p>`
   },
   {
     id: 'coleta-automatica',
     label: 'Coleta Automática de Dados',
-    content: `<p class="termo_p">Quando você visita a Loja, ela pode armazenar ou recuperar informações em seu navegador, seja na forma de cookies (...) você precisará repetir este processo para cada computador e cada navegador.</p>`
+    content: ` <p class="termo_p">Quando você visita a Loja, ela pode armazenar ou recuperar informações em seu navegador, seja na forma de cookies e de outras tecnologias semelhantes. Essas informações podem ser sobre você, suas preferências ou seu dispositivo e são usadas principalmente para que a Loja funcione como você espera. As informações geralmente não o identificam diretamente, mas podem oferecer uma experiência na internet mais personalizada.
+</p>
+
+    <p class="termo_p">De acordo com esta Política de Privacidade, nós e nossos prestadores de serviços terceirizados podemos coletar seus Dados Pessoais de diversas formas, incluindo, entre outros:
+</p>
+
+    <ul>
+      <li>
+        <strong>Por meio do navegador ou dispositivo:</strong> Algumas informações são coletadas pela maior parte dos navegadores ou automaticamente por meio de dispositivos de acesso à internet, como o tipo de computador, resolução da tela, nome e versão do sistema operacional, modelo e fabricante do dispositivo, idioma, tipo e versão do navegador de Internet que está utilizando. Podemos utilizar essas informações para assegurar que a BI-FET funcione adequadamente.
+
+      </li>
+      <li>
+        <strong>Publicidade comportamental:</strong> Podemos contratar empresas de publicidade comportamental, para obter relatórios sobre os anúncios da Loja em toda a internet. Para isso, essas empresas utilizam cookies, pixel tags e outras tecnologias para coletar informações sobre a sua utilização, ou sobre a utilização de outros usuários, da nossa Loja e de site de terceiros. Nós não somos responsáveis por pixel tags, cookies e outras tecnologias similares utilizadas por terceiros. Você pode configurar suas preferências no menu do seu browser. Esteja ciente de que se você mudar de computador ou navegador, ou usar vários computadores ou navegadores, você precisará repetir este processo para cada computador e cada navegador.
+
+      </li>
+    </ul>`
   },
   {
     id: 'direitos',
     label: 'Direitos do Usuário',
-    content: `<p class="termo_p">Você pode, a qualquer momento, requerer: (i) confirmação de que seus Dados Pessoais estão sendo tratados (...) (ix) revogação do consentimento.</p>`
+    content: `<p class="termo_p"> <p class="termo_p">Você pode, a qualquer momento, requerer:</p>
+
+    <ol>
+      <li>Confirmação de que seus Dados Pessoais estão sendo tratados;</li>
+      <li>Acesso aos seus Dados Pessoais;</li>
+      <li>Correções a dados incompletos, inexatos ou desatualizados;</li>
+      <li>Anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade com a lei;</li>
+      <li>Portabilidade de Dados Pessoais a outro prestador de serviços, contanto que isso não afete nossos segredos industriais e comerciais;</li>
+      <li>Eliminação de Dados Pessoais tratados com seu consentimento, na medida do permitido em lei;</li>
+      <li>Informações sobre as entidades às quais seus Dados Pessoais tenham sido compartilhados;</li>
+      <li>Informações sobre a possibilidade de não fornecer o consentimento e sobre as consequências da negativa;</li>
+      <li>Revogação do consentimento.</li>
+    </ol>
+
+    <p class="termo_p">Os seus pedidos serão tratados com especial cuidado de forma a que possamos assegurar a eficácia dos seus direitos. Poderá lhe ser pedido que faça prova da sua identidade de modo a assegurar que a partilha dos Dados Pessoais é apenas feita com o seu titular.
+</p>
+
+    <p class="termo_p">Você deverá ter em mente que, em certos casos (por exemplo, devido a requisitos legais), o seu pedido poderá não ser imediatamente satisfeito, além de que nós poderemos não conseguir atendê-lo por conta de cumprimento de obrigações legais.
+</p>`
   },
   {
     id: 'seguranca',
     label: 'Segurança dos Dados',
-    content: `<p class="termo_p">Buscamos adotar as medidas técnicas e organizacionais previstas pelas Leis de Proteção de Dados (...) favor nos notificar imediatamente.</p>`
+    content: `<p class="termo_p">Buscamos adotar as medidas técnicas e organizacionais previstas pelas Leis de Proteção de Dados adequadas para proteção dos Dados Pessoais na nossa organização. Infelizmente, nenhuma transmissão ou sistema de armazenamento de dados tem a garantia de serem 100% seguros. Caso tenha motivos para acreditar que sua interação conosco tenha deixado de ser segura (por exemplo, caso acredite que a segurança de qualquer uma de suas contas foi comprometida), favor nos notificar imediatamente.
+</p>`
   },
   {
     id: 'links',
     label: 'Links e Redes Sociais',
-    content: `<p class="termo_p">A BI-FET poderá, de tempos em tempos, conter links de hipertexto que redireciona você para sites das redes dos nossos parceiros (...) recomendamos que você se informe sobre a política de privacidade de cada site visitado (...)</p>`
+    content: `<p class="termo_p">A BI-FET poderá, de tempos a tempos, conter links de hipertexto que redireciona você para sites das redes dos nossos parceiros, anunciantes, fornecedores etc. Se você clicar em um desses links para qualquer um desses sites, lembramos que cada site possui as suas próprias práticas de privacidade e que não somos responsáveis por essas políticas. Consulte as referidas políticas antes de enviar quaisquer Dados Pessoais para esses sites.
+</p>
+<p class="termo_p">Não nos responsabilizamos pelas políticas e práticas de coleta, uso e divulgação (incluindo práticas de proteção de dados) de outras organizações, tais como Facebook, Apple, Google, Microsoft, ou de qualquer outro desenvolvedor de software ou provedor de aplicativo, Loja de mídia social, sistema operacional, prestador de serviços de internet sem fio ou fabricante de dispositivos, incluindo todos os Dados Pessoais que divulgar para outras organizações por meio dos aplicativos, relacionadas a tais aplicativos, ou publicadas em nossas páginas em mídias sociais. Nós recomendamos que você se informe sobre a política de privacidade de cada site visitado ou de cada prestador de serviço utilizado.
+  </p>`
   },
   {
     id: 'atualizacoes',
     label: 'Atualizações da Política',
-    content: `<p class="termo_p">Se modificarmos nossa Política de Privacidade, publicaremos o novo texto na BI-FET (...) Sua utilização do Sistema após as alterações significa que aceitou as Políticas de Privacidade revisadas.</p>`
+    content: `<p class="termo_p">Se modificarmos nossa Política de Privacidade, publicaremos o novo texto na BI-FET, com a data de revisão atualizada. Podemos alterar esta Política de Privacidade a qualquer momento. Caso haja alteração significativa nos termos desta Política de Privacidade, podemos informá-lo por meio das informações de contato que tivermos em nosso banco de dados ou por meio de notificação em nosso site.</p>
+    <p class="termo_p">Recordamos que nós temos como compromisso não tratar os seus Dados Pessoais de forma incompatível com os objetivos descritos acima, exceto se de outra forma requerido por lei ou ordem judicial.
+ </p>
+ <p class="termo_p"> Sua utilização do Sistema após as alterações significa que aceitou as Políticas de Privacidade revisadas. Caso, após a leitura da versão revisada, você não esteja de acordo com seus termos, favor encerrar o acesso ao BI-FET. </p>`
   },
   {
     id: 'contato',
     label: 'Contato e Responsável',
-    content: `<p class="termo_p">Caso pretenda exercer qualquer um dos direitos previstos nesta Política de Privacidade (...) favor contatar-nos através do e-mail bifet25@gmail.com.</p>`
+    content: `<p class="termo_p">Caso pretenda exercer qualquer um dos direitos previstos nesta Política de Privacidade e/ou nas Leis de Proteção de Dados, ou resolver quaisquer dúvidas relacionadas ao Tratamento de seus Dados Pessoais, favor contatar-nos através do e-mail bifet25@gmail.com.
+</p>`
   }
 ]
 
@@ -280,18 +327,41 @@ a:hover {
 /* Responsivo */
 @media (max-width: 768px) {
   .main-content {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .sidebar {
     width: 100%;
-    padding-bottom: 1.25rem;
+    max-height: initial;
     border-right: none;
     border-bottom: 1px solid #eee;
+    padding: 1rem;
+    position: relative;
+    overflow-y: auto;
+  }
+
+  .sidebar ul {
+    display: block;
+    padding-left: 0;
+  }
+
+  .sidebar li {
+    margin-bottom: 0.75rem;
+    list-style: none;
+  }
+
+  .sidebar a {
+    display: block;
+    padding-left: 0.5rem;
+    font-size: 0.95rem;
+    border-left: 3px solid transparent;
   }
 
   .terms-content {
-    padding-left: 0;
+    width: 100%;
+    padding: 1rem;
   }
 }
+
 </style>

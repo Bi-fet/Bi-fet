@@ -4,23 +4,23 @@
             <div class="footer-item">
                 <h4 class="footer-title">Informações</h4>
                 <ul>
-                    <li>Termos de Uso</li>
-                    <li>Política de Privacidade</li>
+                    <li class="li_footer">Termos de Uso</li>
+                    <li class="li_footer">Política de Privacidade</li>
                 </ul>
             </div>
             <div class="footer-item">
                 <h4 class="footer-title">Navegação</h4>
                 <ul>
-                    <li>Home</li>
-                    <li>Sobre a BI-FET</li>
-                    <li>Nosso Produto</li>
-                    <li>Contato</li>
+                    <li class="li_footer">Home</li>
+                    <li class="li_footer">Sobre a BI-FET</li>
+                    <li class="li_footer">Nosso Produto</li>
+                    <li class="li_footer">Contato</li>
                 </ul>
             </div>
             <div class="footer-item">
                 <h4 class="footer-title">Contato</h4>
                 <ul>
-                    <li>bifet25@gmail.com</li>
+                    <li class="li_footer" >bifet25@gmail.com</li>
                 </ul>
             </div>
             <div class="footer-item mascote">
@@ -55,7 +55,7 @@ h4 {
     flex-wrap: wrap;
 }
 
-li {
+.li_footer{
     color: var(--btn-text);
     margin-bottom: 18px;
     cursor: pointer;
