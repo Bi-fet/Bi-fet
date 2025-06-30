@@ -26,13 +26,13 @@
             <div class="footer-item mascote">
                 <div class="footer-text">
                     <h4 class="footer-title">Conecte-se Conosco</h4>
-                    <a href="#"><img src="../assets/images/linkedin-icon.svg" alt="Ícone do Linkedin"></a>
+                    <a href="https://www.linkedin.com/in/bi-fet-startup-6a1452370/"><img src="../assets/images/linkedin-icon.svg" alt="Ícone do Linkedin"></a>
                 </div>
                 <img src="../assets/images/t-byte.svg" alt="Mascote da Bi-fet, um robozinho chamado T-Byte."
                     class="robo">
             </div>
         </div>
-        <p>© 2025 BI-FET. Todos os direitos reservados.</p>
+        <p class="a-p">© 2025 BI-FET. Todos os direitos reservados.</p>
     </footer>
 </template>
 
@@ -73,7 +73,7 @@ li {
     margin: 0 auto;
 }
 
-p {
+.a-p{
     color: var(--btn-text);
     text-align: center;
     margin-top: 24px;
